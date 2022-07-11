@@ -26,7 +26,7 @@ v(<# of columns>):
 <column 2 constraints>
 ...
 
-h(# of rows):
+h(<# of rows>):
 <row 1 constraints>
 <row 2 constraints>
 ...
