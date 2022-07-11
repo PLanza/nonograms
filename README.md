@@ -16,6 +16,30 @@ Once the program is run the following keys can be used to solve the puzzle:
 Resizing the terminal to a size smaller than the board will result in the program crashing!
 
 
+## .nono Files
+These files contain the contents of a Nonogram puzzle. There are two examples in the `puzzles` folder. 
+
+These files must follow this format:
+```
+v(<# of columns>):
+<column 1 constraints>
+<column 2 constraints>
+...
+
+h(# of rows):
+<row 1 constraints>
+<row 2 constraints>
+...
+```
+Here, each column or row constraints are space separated. So if you had two columns with constraints `[1, 2, 3]` and `[4, 5, 6]`, these would be written as follows:
+```
+...
+1 2 3
+4 5 6
+...
+```
+
+
 ## Todo
 
 * Choose puzzle file from terminal
